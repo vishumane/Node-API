@@ -1,14 +1,5 @@
 const pool = require("./db");
 
-//basic query for return all employee
-// pool.query('SELECT * FROM Employees', (err, res) => {
-//   if (err) {
-//     console.error('Error executing query', err);
-//   } else {
-//     console.log('Query result:', res.rows);
-//   }
-// });
-// console.log("hello Vishal")
 //get userdetails
 const getUsers = (request, response) => {
   pool.query(
